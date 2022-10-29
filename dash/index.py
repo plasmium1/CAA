@@ -41,7 +41,7 @@ sidebar = html.Div(
                 dbc.NavLink("Ranking - Earning", href="/ranking", active="exact"),
                 dbc.NavLink("Ranking - SAT", href="/", active="exact"),
                 dbc.NavLink("Student Size/Cost", href="/sizecost", active="exact"),
-                dbc.NavLink("Admission Rate", href="/admission", active="exact"),
+                dbc.NavLink("Admission Rate", href="/admissions", active="exact"),
                 dbc.NavLink("Cost Overview", href="/cost", active="exact"),
             ],
             vertical=True,
