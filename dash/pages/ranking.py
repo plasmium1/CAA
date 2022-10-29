@@ -63,4 +63,4 @@ layout = html.Div(children=[
        id='school-ranking-graph',
        figure=show_ranking_picture(df, 'Computer Science', 'US'),
     )
- ])
+])
