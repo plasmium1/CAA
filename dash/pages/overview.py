@@ -109,6 +109,7 @@ def update_figures(school):
         margin={"r":0,"t":50,"l":0,"b":10},
     )
     school_url = df[df['Name'] == school]['URL'].values[0]
+    school_url = school_url.replace("https://", "")
     price_url = df[df['Name'] == school]['Price Calculator'].values[0]
     price_url = price_url.replace("https://","")
     table_header = [
